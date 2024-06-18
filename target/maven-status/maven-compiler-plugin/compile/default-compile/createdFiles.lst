@@ -1,0 +1,17 @@
+org\acme\models\Fine$FineBuilder.class
+org\acme\services\CustomerServiceImpl.class
+org\acme\models\Customer$CustomerBuilder.class
+org\acme\services\DriverService.class
+org\acme\models\Driver$DriverBuilder.class
+org\acme\models\Violation.class
+org\acme\models\LicencesValidationService.class
+org\acme\Status.class
+org\acme\models\Driver.class
+org\acme\CorsConfig.class
+org\acme\dtos\request\LoanApplicationRequest.class
+org\acme\KogitoApplication.class
+org\acme\models\Violation$ViolationBuilder.class
+org\acme\dtos\response\LoanApplicationResponse.class
+org\acme\models\Customer.class
+org\acme\models\Fine.class
+org\acme\models\LicencesValidationService$LicencesValidationServiceBuilder.class

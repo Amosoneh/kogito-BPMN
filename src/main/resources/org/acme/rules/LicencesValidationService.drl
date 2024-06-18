@@ -1,0 +1,27 @@
+package org.acme.models;
+
+//import org.acme.models.Driver;
+//import org.acme.models.LicencesValidationService;
+
+unit LicencesValidationService;
+
+rule "Is driver license valid"
+when
+//    $service: LicencesValidationService()
+    $driver: /driver[licenseExpiration.after(currentTime)]
+then
+    $driver.setValidLicense(true);
+end
+
+rule "Is driver license expired"
+when
+//    $service: LicencesValidationService()
+    $driver: /driver[licenseExpiration.after(currentTime)]
+then
+    $driver.setValidLicense(false);
+end
+
+query "validation"
+//    $service: LicencesValidationService()
+    $driver : /driver
+end
